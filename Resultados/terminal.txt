@@ -1,0 +1,162 @@
+(venv) E:\Visual\python\bow_zapo>python prueba_bow.py
+ 292 Columnas del documento: ['Verbo didxazá/didxastía', '1ra persona del singular', '2da persona del singular ', '3ra persona del singular', '1ra persona del plural incluyente', '1ra persona del plural excluyente ', '2da persona del plural', 'Unnamed: 7', '3ra persona del singular.', '3ra persona del plural ', '3ra persona del plural']
+  Verbo didxazá/didxastía 1ra persona del singular 2da persona del singular  3ra persona del singular 1ra persona del plural incluyente 1ra persona del plural excluyente  2da persona del plural  Unnamed: 7  3ra persona del singular. 3ra persona del plural        3ra persona del plural
+0                     NaN                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN         NaN                        NaN                     NaN                          NaN
+1                   GUUTA                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN         NaN  Con un sujeto específico                   Humano                      Animal 
+2                  ACOSTÓ             Yo me acoste           Tu te acostaste         El/la se acostó          Nosotros nos acostamos(i)          Nosotros nos acostamos(e)   Ustedes se acostaron         NaN        [nombre] se acostó    Ellos se acostaron(p)  Ellos se acostaron (animal)
+3                     NaN                Naa guuta              Lii guuta'lu           Laabe guuta'be                    Laanu guuta'nu                     Laadu guuta'du         Laatu guuta'tu         NaN              Raúl guuta'nu      Laacabe guuta'cabe               Laame guuta'me
+4                     NaN             Naa guuta'lu                 Lii guuta           Laabe guuta'lu                    Laanu guuta'du                     Laadu guuta'nu            Laatu guuta         NaN           Raúl guuta'nu'be                     NaN                          NaN
+5                     NaN                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN         NaN                        NaN                     NaN                          NaN
+6                     NaN                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN         NaN                        NaN                     NaN                          NaN
+7               GUNAXHIIA                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN         NaN                        NaN                     NaN                          NaN
+8                     AMÓ                   Yo ame                 Tu amaste                El/la amó            Nosotros nos amamos(i)            Nostotros nos amamos(e)      Ustedes se amaron         NaN               [nombre] amó      Ellos se amaron(p)     Ellos se amaron (animal)
+9                     NaN             Naa gunaxhia           Lii gunaxhii'lu        Laabe gunaxhii'be                 Laanu gunaxhii'nu                  Laadu gunaxhii'du      Laatu gunaxhii'tu         NaN              Raúl gunaxhii   Laacabe gunaxhii'cabe            Laame gunaxhii'me
+ 347 Columnas de verbos: ['naa guuta']
+           naa guuta
+0       lii guuta'lu
+1     laabe guuta'be
+2     laanu guuta'nu
+3     laadu guuta'du
+4     laatu guuta'tu
+5       naa gunaxhia
+6    lii gunaxhii'lu
+7  laabe gunaxhii'be
+8  laanu gunaxhii'nu
+9  laadu gunaxhii'du
+Tamaño del vocabulario: 129
+Muestra ordenada: ['/', 'bedaneá', "bendane'", "bica'", "bicaa'", 'bicá', 'bicáa', "bidi'", 'bidiá', 'bidxeela', "bidxeela'", "bidxela'", "bidúya'", "biga'", 'bigaya']
+E:\Visual\python\bow_zapo\venv\Lib\site-packages\sklearn\feature_extraction\text.py:526: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
+  warnings.warn(
+Dimensión de matriz: (1, 129)
+Lista de palabras frecuentes en el documento:
+  laanu: 116
+  lii: 116
+  laatu: 116
+  laadu: 116
+  laabe: 116
+  naa: 116
+  biziidi': 20
+  guni: 18
+  guye': 17
+  guca: 16
+  bini: 15
+  bisianda': 15
+  guleza': 15
+  guuta': 13
+  biinda': 12
+  bixoñe': 12
+  guuze': 12
+  diidxa: 11
+  gunaxhii': 11
+  guzi': 11
+  bixoba': 10
+  gunna': 10
+  guleeza': 10
+  gunaba': 10
+  gudxiba': 10
+  ique': 10
+  bisenda': 10
+  bisana': 10
+  gupa': 10
+  gudxhe': 10
+  dxiiña': 10
+  gudxite': 10
+  yeganna': 10
+  binda': 10
+  bisugaa': 10
+  biina': 10
+  bidi': 9
+  bisaa': 9
+  bisia': 9
+  bissidi': 9
+  biui: 9
+  biyadxi': 9
+  bicaa': 9
+  bendane': 9
+  bica': 9
+  biga': 9
+  biquine': 9
+  bini': 9
+  bioa': 9
+  huara': 9
+  guni': 9
+  gudiidi': 9
+  gudxi': 9
+  guli': 9
+  gusi': 9
+  hue': 9
+  bire': 9
+  binibiá': 8
+  bitine': 8
+  bisianda: 7
+  guleza: 7
+  bizulo': 6
+  guyá: 6
+  yendaa': 6
+  /: 6
+  biui': 6
+  bidxela': 6
+  yune': 5
+  biina: 5
+  bine: 5
+  biinda: 5
+  binda: 5
+  bidúya': 5
+  bisana: 5
+  bixoñe: 5
+  gunna: 5
+  gunaba: 5
+  biá': 5
+  bisugaa: 5
+  bisenda: 5
+  bixoba: 5
+  dxiiña: 5
+  gudxiba: 5
+  gupa: 5
+  guleeza: 5
+  ubigueta': 5
+  yeganna: 5
+  ique: 5
+  guuze: 5
+  gudxite: 5
+  yene': 4
+  biziide: 4
+  bidxeela': 4
+  gudxhe: 4
+  diidxa': 4
+  ubigueta: 3
+  yendao': 3
+  binibia': 3
+  biá: 3
+  bidxeela: 3
+  bitiñe: 3
+  bizuló': 3
+  gudiide: 2
+  gue: 2
+  gudxe: 2
+  guziá: 2
+  huaraya: 2
+  yendaaya: 2
+  yeneá: 2
+  guliá: 2
+  guniá: 2
+  hueá: 2
+  guse: 2
+  binebiá: 2
+  bireá: 2
+  bisiaya: 2
+  bisaaya: 2
+  biyadxiá: 2
+  bizuloá: 2
+  bitiñe': 2
+  bisiide: 2
+  bidiá: 2
+  biquiñe: 2
+  bioá: 2
+  bigaya: 2
+  bicá: 2
+  bicáa: 2
+  bedaneá: 2
+  gunaxhia: 1
+
+(venv) E:\Visual\python\bow_zapo>
