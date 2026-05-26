@@ -39,4 +39,4 @@ source venv/bin/activate
 **Instalar dependencias:**
 pip install -r requirements.txt
 **Ejecución**
-python python prueba_bow.py
+python prueba_bow.py
