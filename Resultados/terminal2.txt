@@ -1,0 +1,157 @@
+(venv) E:\Visual\python\bow_zapo>python prueba_bow.py
+ 292 filas, Columnas del documento: ['Verbo didxazá/didxastía', '1ra persona del singular', '2da persona del singular ', '3ra persona del singular', '1ra persona del plural incluyente', '1ra persona del plural excluyente ', '2da persona del plural']
+  Verbo didxazá/didxastía 1ra persona del singular 2da persona del singular  3ra persona del singular 1ra persona del plural incluyente 1ra persona del plural excluyente  2da persona del plural
+0                     NaN                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN
+1                   GUUTA                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN
+2                  ACOSTÓ             Yo me acoste           Tu te acostaste         El/la se acostó          Nosotros nos acostamos(i)          Nosotros nos acostamos(e)   Ustedes se acostaron
+3                     NaN                Naa guuta              Lii guuta'lu           Laabe guuta'be                    Laanu guuta'nu                     Laadu guuta'du         Laatu guuta'tu
+4                     NaN             Naa guuta'lu                 Lii guuta           Laabe guuta'lu                    Laanu guuta'du                     Laadu guuta'nu            Laatu guuta
+5                     NaN                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN
+6                     NaN                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN
+7               GUNAXHIIA                      NaN                       NaN                      NaN                               NaN                                NaN                    NaN
+8                     AMÓ                   Yo ame                 Tu amaste                El/la amó            Nosotros nos amamos(i)            Nostotros nos amamos(e)      Ustedes se amaron
+9                     NaN             Naa gunaxhia           Lii gunaxhii'lu        Laabe gunaxhii'be                 Laanu gunaxhii'nu                  Laadu gunaxhii'du      Laatu gunaxhii'tu
+ 348 filas, columna de verbos: [0]
+                    0
+0          naa guuta 
+1       lii guuta'lu 
+2     laabe guuta'be 
+3     laanu guuta'nu 
+4     laadu guuta'du 
+5     laatu guuta'tu 
+6       naa gunaxhia 
+7    lii gunaxhii'lu 
+8  laabe gunaxhii'be 
+9  laanu gunaxhii'nu 
+Tamaño del vocabulario: 126
+Muestra ordenada: ['bedaneá', "bendane'", "bica'", "bicaa'", 'bicá', 'bicáa', "bidi'", 'bidiá', 'bidxela', "bidxela'", "bidúya'", "biga'", 'bigaya', 'biina', "biina'"]
+E:\Visual\python\bow_zapo\venv\Lib\site-packages\sklearn\feature_extraction\text.py:526: UserWarning: The parameter 'token_pattern' will not be used since 'tokenizer' is not None'
+  warnings.warn(
+Dimensión de matriz: (1, 126)
+Lista de palabras frecuentes en el documento:
+  laatu: 116
+  laanu: 116
+  naa: 116
+  lii: 116
+  laabe: 116
+  laadu: 116
+  guye': 16
+  biziidi': 16
+  guni: 15
+  guca: 14
+  bisianda': 14
+  guleza': 13
+  bini: 12
+  diidxa: 10
+  gunna': 9
+  guleeza': 9
+  gudxiba': 9
+  gunaba': 9
+  gupa': 9
+  dxiiña': 9
+  gudxhe': 9
+  gudxite': 9
+  bixoba': 9
+  bisugaa': 9
+  bisenda': 9
+  bisana': 9
+  yeganna': 9
+  ique': 9
+  guuta': 9
+  guuze': 9
+  bidxela': 9
+  binda': 9
+  biinda': 9
+  bixoñe': 9
+  biina': 9
+  gudxi': 8
+  biyadxi': 8
+  bissidi': 8
+  bidi': 8
+  bendane': 8
+  bica': 8
+  bicaa': 8
+  bioa': 8
+  biga': 8
+  biquine': 8
+  bisaa': 8
+  bisia': 8
+  guni': 8
+  gunaxhii': 8
+  guli': 8
+  gudiidi': 8
+  huara': 8
+  bini': 8
+  bire': 8
+  gusi': 8
+  guzi': 8
+  hue': 8
+  biui: 7
+  bitine': 7
+  guleza: 6
+  bizulo': 6
+  binibiá': 6
+  biui': 6
+  bidúya': 5
+  bine: 5
+  yendaa': 5
+  yune': 5
+  guyá: 5
+  ubigueta': 5
+  bisianda: 5
+  biá': 4
+  bixoñe: 4
+  biina: 4
+  bidxela: 4
+  biinda: 4
+  binda: 4
+  bisenda: 4
+  bisugaa: 4
+  gudxite: 4
+  gunaba: 4
+  gupa: 4
+  gunna: 4
+  guuta: 4
+  yeganna: 4
+  ique: 4
+  guuze: 4
+  gudxiba: 4
+  guleeza: 4
+  bixoba: 4
+  biziide: 4
+  bisana: 4
+  dxiiña: 4
+  gudxhe: 3
+  yene': 3
+  yendao': 3
+  bitiñe: 3
+  guliá: 2
+  gudxe: 2
+  bisaaya: 2
+  gudiide: 2
+  huaraya: 2
+  guziá: 2
+  ubigueta: 2
+  hueá: 2
+  yeneá: 2
+  yendaaya: 2
+  guniá: 2
+  guse: 2
+  biá: 2
+  biyadxiá: 2
+  binibia': 2
+  bitiñe': 2
+  bisiide: 2
+  bisiaya: 2
+  bizuloá: 2
+  bizuló': 2
+  bireá: 2
+  bioá: 2
+  bicá: 2
+  binebiá: 2
+  biquiñe: 2
+  bigaya: 2
+  bidiá: 2
+  bicáa: 2
+  bedaneá: 2
+  gunaxhia: 1

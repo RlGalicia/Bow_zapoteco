@@ -4,11 +4,11 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 
 df_documento = pd.read_csv('Verbos Zapoteco.csv') #Documento que actuara como corpus
-print(f" {len(df_documento)} Columnas del documento:", df_documento.columns.tolist())
+print(f" {len(df_documento)} filas, Columnas del documento:", df_documento.columns.tolist())
 print(df_documento.head(10))
 
-df_verbos = pd.read_csv('Palabras diidxaza - OrdenadasLower.csv') #Documento con las palabrtas válidas
-print(f" {len(df_verbos)} Columnas de verbos:", df_verbos.columns.tolist())
+df_verbos = pd.read_csv('Palabras diidxaza - OrdenadasLower.csv', header=None) #Documento con las palabras válidas
+print(f" {len(df_verbos)} filas, columna de verbos:", df_verbos.columns.tolist())
 print(df_verbos.head(10))
 
 vocabulario = set()
@@ -16,6 +16,9 @@ vocabulario = set()
 for celda in df_verbos.iloc[:, 0].dropna(): # La única columna de df_verbos
     tokens = str(celda).strip().lower().split() # Casteo a string y separamos por espacios
     for token in tokens:
+        token = token.strip('"')
+        if not token:
+            continue
         # Hasta el primer apóstrofe { ' }
         apostrofe_verbo = token.find("'")
         if apostrofe_verbo != -1:
